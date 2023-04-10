@@ -58,13 +58,13 @@
 
 /* how it works section */
 .howitworks {
-
   text-align: center;
 }
 
 /* section */
 .module3head {
   text-align: center;
+  display: flex;
 }
 
 /* last section */
@@ -83,4 +83,20 @@ input {
 svg {
   height: 30vh;
   width: 30vw;
+  color: #d30000;
 }
+
+img {
+  overflow: hidden;
+  align-items: center;
+  height: 55vh;
+}
+
+.imgcontainer {
+  text-align: center;
+}
+
+/* .center {
+  display: block;
+  margin: auto;
+} */
