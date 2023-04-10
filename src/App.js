@@ -91,12 +91,12 @@ function App() {
       {/* module 3  */}
       <div className="module3head">
         <p> Buyer First Convenience: No need to call an agent. Schedule appointments when you are free and you are matched to an agent who is free at that time.
-          Visual: Home icon (sketch of a type of home) </p>
+          Visual: Home icon (sketch of a type of home ICON) </p>
 
         <p>No Cost: This app is free for people looking for homes. Find homes near you on your terms and without multiple calls or sales pitches.
-          Visual: Home icon 2 (different home) </p>
+          Visual: Home icon 2 (different home ICON) </p>
         <p>No Strings: You don’t need to have a dedicated agent to see a property—and you are never committed to the agent who shows you the property.
-          Visual: Home icon 3 (another home)
+          Visual: Home icon 3 (another home ICON)
         </p>
       </div><br />
       {/* Phone number 2 section */}
