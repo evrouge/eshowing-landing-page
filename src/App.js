@@ -64,7 +64,41 @@ function App() {
         <br /><hr />
       </div>
       <div className="howitworks">
-        <h1>How it works:</h1>
+        <h1>How it works:</h1><br />
+        <h4>With just a few taps, you can easily search for all available homes in your desired area and schedule a private home tour at your convenience.</h4>
+        <h3>STEPS:</h3>
+        <h3>Step 1: Search For Homes</h3>
+        <p>Simply enter your desired location and browse for available homes in the area. Filter your search based on the number of bedrooms, bathrooms, and other amenities.
+          Visual: App screenshot: Search results page, dots
+        </p>
+        <h3>Step 2: Get More Details</h3>
+        <p>See something you like? Click to get details and pictures. Want to schedule a tour? Select "Schedule Tour" at the top of the screen. Put in the time and place of your preference, and we will confirm it with the seller. You will get a confirmation that your showing has been scheduled and all you have to do is show up!
+          Visual: App screenshot: House detail page</p>
+        <h3>Step 3: Schedule a Showing</h3>
+        <p>With our app, you choose the property, and an agent will meet you at the door to give you a private showing. If you like the agent, you can continue working with together. If not, you have the option to choose a different agent. Or no agent.
+          Visual: App screenshot: Appointment page
+        </p>
+        <h4>Step 4: View the Property</h4>
+        <p>An agent will meet you at the door to give you a private showing. If you like the agent, you can continue working with together. If not, you have the option to choose a different agent. Or no agent.
+          Visual: App screenshot: Confirmation page
+        </p><br /><hr />
+      </div>
+      <div className="module3head">
+        <p> Buyer First Convenience: No need to call an agent. Schedule appointments when you are free and you are matched to an agent who is free at that time.
+          Visual: Home icon (sketch of a type of home) </p>
+
+        <p>No Cost: This app is free for people looking for homes. Find homes near you on your terms and without multiple calls or sales pitches.
+          Visual: Home icon 2 (different home) </p>
+        <p>No Strings: You don’t need to have a dedicated agent to see a property—and you are never committed to the agent who shows you the property.
+          Visual: Home icon 3 (another home)
+        </p>
+      </div><br /><hr />
+      <div className="phone2">
+        <h1>Browse, Schedule and Tour Homes at Your Convenience. Download the eShowing app.</h1>
+        <p>Our team of top agents designed this app to make the home-buying process simple, efficient and stress-free for you. Download our app and start your home buying journey today!
+          Signup1: Mobile Number
+          Signup2: Text me the app
+          Disclaimer: U.S. mobile numbers only. Message and data rates apply. I agree to receive a one-time text message containing a link to download the eShowing app at the mobile number I provide above, and I confirm that the mobile number is mine.</p>
       </div>
     </>
   );
