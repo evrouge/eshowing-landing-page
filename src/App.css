@@ -38,10 +38,11 @@
   }
 } */
 
-
+/* download 1 section */
 .signup {
   background-color: #d30000;
   color: white;
+  text-align: center;
 }
 
 .signup-container {
@@ -50,16 +51,31 @@
   align-items: center;
 }
 
+/* section */
+.visuals {
+  text-align: center;
+}
+
+/* how it works section */
 .howitworks {
   background-color: #d30000;
   color: white;
+  text-align: center;
 }
 
+/* section */
+.module3head {
+  text-align: center;
+}
+
+/* last section */
 .phone2 {
   background-color: #d30000;
   color: white;
+  text-align: center;
 }
 
+/* input styling */
 input {
   align-items: center;
 }
