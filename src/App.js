@@ -92,6 +92,7 @@ function App() {
       <div className="module3head">
         <p> Buyer First Convenience: No need to call an agent. Schedule appointments when you are free and you are matched to an agent who is free at that time.
           Visual: Home icon (sketch of a type of home ICON) </p>
+        <img src="https://icons8.com/icon/67473/home" alt="home icon" />
 
         <p>No Cost: This app is free for people looking for homes. Find homes near you on your terms and without multiple calls or sales pitches.
           Visual: Home icon 2 (different home ICON) </p>
