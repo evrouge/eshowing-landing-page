@@ -11,6 +11,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+
 //========================================
 //========================================
 function App() {
@@ -18,9 +19,9 @@ function App() {
     <>
       <div>
         {/* Bootstrap Navbar */}
-        <Navbar collapseOnSelect expand="lg" bg="primary" variant="dark">
+        <Navbar collapseOnSelect expand="lg" bg="light" variant="inverse">
           <Container>
-            <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+            <Navbar.Brand href="#home">eShowing</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="me-auto">
@@ -49,20 +50,24 @@ function App() {
         </Navbar>
       </div>
       <div className="signup">
+        <h1>Download the eShowing app!</h1>
         <h4>Don't let the inconvenience of looking at houses consume you. Take control of your home-buying journey with a house-hunting app that works on YOUR schedule—not an agent’s.</h4>
         {/* Phone sign up  */}
-        <label for="phone"></label>
-        <input type="tel" id="phone" name="phone" placeholder="Mobile number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required />
-        <input type="submit" value="text me the app" /><br />
+        <div className="signup-container">
+          <label for="phone"></label>
+          <input type="tel" id="phone" name="phone" placeholder="Mobile number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required />
+          <input type="submit" value="text me the app" /><br /></div>
         <h7>Disclaimer: U.S. mobile numbers only. Message and data rates apply. I agree to receive a one-time text message containing a link to download the eShowing app at the mobile number I provide above, and I confirm that the mobile number is mine.</h7>
-        <br /><hr />
+        <br /><br />
       </div>
-      <div>
+      {/* visuals  */}
+      <div className="visuals">
         <h1>visuals here</h1>
         <h4>First one is a GRAB MAP</h4>
         <h4>second one is a phone screen with app and play button</h4>
-        <br /><hr />
+        <br /><br />
       </div>
+      {/* how it works section */}
       <div className="howitworks">
         <h1>How it works:</h1><br />
         <h4>With just a few taps, you can easily search for all available homes in your desired area and schedule a private home tour at your convenience.</h4>
@@ -81,8 +86,9 @@ function App() {
         <h4>Step 4: View the Property</h4>
         <p>An agent will meet you at the door to give you a private showing. If you like the agent, you can continue working with together. If not, you have the option to choose a different agent. Or no agent.
           Visual: App screenshot: Confirmation page
-        </p><br /><hr />
+        </p><br />
       </div>
+      {/* module 3  */}
       <div className="module3head">
         <p> Buyer First Convenience: No need to call an agent. Schedule appointments when you are free and you are matched to an agent who is free at that time.
           Visual: Home icon (sketch of a type of home) </p>
@@ -92,13 +98,16 @@ function App() {
         <p>No Strings: You don’t need to have a dedicated agent to see a property—and you are never committed to the agent who shows you the property.
           Visual: Home icon 3 (another home)
         </p>
-      </div><br /><hr />
+      </div><br />
+      {/* Phone number 2 section */}
       <div className="phone2">
         <h1>Browse, Schedule and Tour Homes at Your Convenience. Download the eShowing app.</h1>
-        <p>Our team of top agents designed this app to make the home-buying process simple, efficient and stress-free for you. Download our app and start your home buying journey today!
-          Signup1: Mobile Number
-          Signup2: Text me the app
-          Disclaimer: U.S. mobile numbers only. Message and data rates apply. I agree to receive a one-time text message containing a link to download the eShowing app at the mobile number I provide above, and I confirm that the mobile number is mine.</p>
+        <p>Our team of top agents designed this app to make the home-buying process simple, efficient and stress-free for you. Download our app and start your home buying journey today!</p>
+        <div className="signup-container">
+          <label for="phone2"></label>
+          <input type="tel" id="phone" name="phone" placeholder="Mobile number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required />
+          <input type="submit" value="text me the app" /><br /></div>
+        <p> Disclaimer: U.S. mobile numbers only. Message and data rates apply. I agree to receive a one-time text message containing a link to download the eShowing app at the mobile number I provide above, and I confirm that the mobile number is mine.</p><br />
       </div>
     </>
   );
