@@ -78,3 +78,9 @@
 input {
   align-items: center;
 }
+
+/* icons styling */
+svg {
+  height: 30vh;
+  width: 30vw;
+}
