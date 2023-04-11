@@ -110,12 +110,29 @@ img {
   /* make image take up half of the container */
 }
 
+@media (max-width: 767px) {
+
+  .step-text,
+  .step-text2 {
+    width: 100%;
+    float: none;
+    margin: 2rem 0;
+  }
+
+  .step img {
+    float: none;
+    width: 100%;
+  }
+}
+
+
 /* section */
 .module3head {
   text-align: center;
   display: flex;
 }
 
+/* media query for icons stacking on top of each other when on mobile phone */
 @media (max-width: 767px) {
   .module3head {
     flex-direction: column;
