@@ -55,25 +55,37 @@ function App() {
       <div className="howitworks">
         <h1>How It Works:</h1><br />
         <h4>With just a few taps, you can easily search for all available homes in your desired area and schedule a private home tour at your convenience.</h4><br />
-        <h3>Step 1: Search For Homes</h3>
-        <p>Simply enter your desired location and browse for available homes in the area. Filter your search based on the number of bedrooms, bathrooms, and other amenities.
-          Visual: App screenshot: Search results page, dots
-        </p>
-        <img src="https://i.imgur.com/rW2PhJk.jpg" alt="screenshot"></img>
-        <h3>Step 2: Get More Details</h3>
-        <p>See something you like? Click to get details and pictures. Want to schedule a tour? Select "Schedule Tour" at the top of the screen. Put in the time and place of your preference, and we will confirm it with the seller. You will get a confirmation that your showing has been scheduled and all you have to do is show up!
-          Visual: App screenshot: House detail page</p>
-        <div class="imgcontainer"><img src="https://i.imgur.com/z24DUMf.jpg" class="center" /></div>
-        <h3>Step 3: Schedule a Showing</h3>
-        <p>With our app, you choose the property, and an agent will meet you at the door to give you a private showing. If you like the agent, you can continue working with together. If not, you have the option to choose a different agent. Or no agent.
-          Visual: App screenshot: Appointment page
-        </p>
-        <div class="imgcontainer"><img src="https://i.imgur.com/VLLYqG0.jpg" /></div>
-        <h4>Step 4: View the Property</h4>
-        <p>An agent will meet you at the door to give you a private showing. If you like the agent, you can continue working with together. If not, you have the option to choose a different agent. Or no agent.
-          Visual: App screenshot: Confirmation page
-        </p>
-        <div class="imgcontainer"><img src="https://i.imgur.com/SGNJivO.jpg" /></div>
+        <p class='text'>Step 1: Search For Homes</p>
+        <div className='step'>
+          <div className='step-text'>
+            <p>Simply enter your desired location and browse for available homes in the area. Filter your search based on the number of bedrooms, bathrooms, and other amenities.
+              Visual: App screenshot: Search results page, dots
+            </p></div>
+          <div class="image-container">
+            <img src="https://i.imgur.com/rW2PhJk.jpg" alt="screenshot"></img>
+          </div>
+        </div><br />
+        <div className='step'>
+          <p class='text'>Step 2: Get More Details</p>
+          <div class='step-text2'>
+            <p>See something you like? Click to get details and pictures. Want to schedule a tour? Select "Schedule Tour" at the top of the screen. Put in the time and place of your preference, and we will confirm it with the seller. You will get a confirmation that your showing has been scheduled and all you have to do is show up!
+              Visual: App screenshot: House detail page</p></div>
+          <div class="image-container"><img src="https://i.imgur.com/z24DUMf.jpg" class="center" /></div>
+        </div>
+        <div className='step'>
+          <p class='text'>Step 3: Schedule a Showing</p>
+          <div class='step-text'><p>With our app, you choose the property, and an agent will meet you at the door to give you a private showing. If you like the agent, you can continue working with together. If not, you have the option to choose a different agent. Or no agent.
+            Visual: App screenshot: Appointment page
+          </p></div>
+          <div class="image-container"><img src="https://i.imgur.com/VLLYqG0.jpg" /></div>
+        </div>
+        <div className='step'>
+          <p class='text'>Step 4: View the Property</p>
+          <div class='step-text2'><p>An agent will meet you at the door to give you a private showing. If you like the agent, you can continue working with together. If not, you have the option to choose a different agent. Or no agent.
+            Visual: App screenshot: Confirmation page
+          </p></div>
+          <div class="image-container"><img src="https://i.imgur.com/SGNJivO.jpg" /></div>
+        </div>
         <br />
       </div>
       {/* module 3  */}

@@ -61,6 +61,57 @@
   text-align: center;
 }
 
+img {
+  max-width: 40%;
+  height: auto;
+}
+
+.image-container {
+  width: 400px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* resize the image to cover the entire container */
+}
+
+.step {
+  overflow: hidden;
+  /* clear floats */
+}
+
+.text {
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.step-text {
+  float: left;
+  width: 50%;
+  margin-left: 3rem;
+  margin-top: 4rem;
+}
+
+.step-text2 {
+  float: right;
+  width: 50%;
+  margin-right: 3rem;
+  margin-top: 4rem;
+}
+
+.step img {
+  float: right;
+  /* float image to the right */
+  width: 50%;
+  /* make image take up half of the container */
+}
+
+
+
 
 
 /* section */
