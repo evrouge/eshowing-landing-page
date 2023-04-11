@@ -23,19 +23,6 @@ function App() {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="me-auto">
-                {/* <Nav.Link href="#features">Features</Nav.Link>
-                <Nav.Link href="#pricing">Pricing</Nav.Link> */}
-                {/* <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-                  <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.2">
-                    Another action
-                  </NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                  <NavDropdown.Divider />
-                  <NavDropdown.Item href="#action/3.4">
-                    Separated link
-                  </NavDropdown.Item>
-                </NavDropdown> */}
               </Nav>
               <Nav>
                 <Nav.Link href="#deets">How It Works</Nav.Link>
@@ -60,16 +47,14 @@ function App() {
       </div>
       {/* visuals  */}
       <div className="visuals">
-        <h1>visuals here</h1>
-        <h4>First one is a GRAB MAP</h4>
-        <h4>second one is a phone screen with app and play button</h4>
+        <h4>MAP</h4>
+        <h4>phone screen with app and play button</h4>
         <br /><br />
       </div>
       {/* how it works section */}
       <div className="howitworks">
-        <h1>How it works:</h1><br />
-        <h4>With just a few taps, you can easily search for all available homes in your desired area and schedule a private home tour at your convenience.</h4>
-        <h3>STEPS:</h3>
+        <h1>How It Works:</h1><br />
+        <h4>With just a few taps, you can easily search for all available homes in your desired area and schedule a private home tour at your convenience.</h4><br />
         <h3>Step 1: Search For Homes</h3>
         <p>Simply enter your desired location and browse for available homes in the area. Filter your search based on the number of bedrooms, bathrooms, and other amenities.
           Visual: App screenshot: Search results page, dots
@@ -97,19 +82,19 @@ function App() {
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
             <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5ZM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5 5 5Z" />
           </svg>
-          <p class="icons"> Buyer First Convenience: No need to call an agent. Schedule appointments when you are free and you are matched to an agent who is free at that time.</p>
+          <p class="icons"> Buyer First Convenience:</p><p class="icons"> No need to call an agent. Schedule appointments when you are free and you are matched to an agent who is free at that time.</p>
         </div>
         <div className='icon-container'>
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door" viewBox="0 0 16 16">
             <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146ZM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5Z" />
           </svg>
-          <p class="icons">No Cost: This app is free for people looking for homes. Find homes near you on your terms and without multiple calls or sales pitches.</p>
+          <p class="icons">No Cost: </p><p class="icons">This app is free for people looking for homes. Find homes near you on your terms and without multiple calls or sales pitches.</p>
         </div>
         <div class='icon-container'>
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-houses" viewBox="0 0 16 16">
             <path d="M5.793 1a1 1 0 0 1 1.414 0l.647.646a.5.5 0 1 1-.708.708L6.5 1.707 2 6.207V12.5a.5.5 0 0 0 .5.5.5.5 0 0 1 0 1A1.5 1.5 0 0 1 1 12.5V7.207l-.146.147a.5.5 0 0 1-.708-.708L5.793 1Zm3 1a1 1 0 0 1 1.414 0L12 3.793V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v3.293l1.854 1.853a.5.5 0 0 1-.708.708L15 8.207V13.5a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 4 13.5V8.207l-.146.147a.5.5 0 1 1-.708-.708L8.793 2Zm.707.707L5 7.207V13.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5V7.207l-4.5-4.5Z" />
           </svg>
-          <p class="icons">No Strings: You don’t need to have a dedicated agent to see a property—and you are never committed to the agent who shows you the property.</p>
+          <p class="icons">No Strings: </p><p class="icons"> You don’t need to have a dedicated agent to see a property—and you are never committed to the agent who shows you the property.</p>
         </div>
       </div><br /><br /><br />
       {/* Phone number 2 section */}
