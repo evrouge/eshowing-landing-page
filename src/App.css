@@ -45,6 +45,16 @@
   text-align: center;
 }
 
+.title {
+  margin-left: 7rem;
+  margin-right: 7rem;
+}
+
+.disclaimer {
+  padding-left: 20rem;
+  padding-right: 20rem;
+}
+
 .signup-container {
   display: flex;
   justify-content: center;
@@ -59,6 +69,11 @@
 /* how it works section */
 .howitworks {
   text-align: center;
+}
+
+.howitworkstext {
+  margin-left: 10rem;
+  margin-right: 10rem;
 }
 
 img {
@@ -81,7 +96,6 @@ img {
 
 .step {
   overflow: hidden;
-  /* clear floats */
 }
 
 .text {
@@ -176,7 +190,8 @@ svg {
 }
 
 .icons {
-  padding: 15px;
+  padding: 10px;
+  margin: auto;
 }
 
 img {

@@ -35,31 +35,29 @@ function App() {
         </Navbar>
       </div>
       <div className="signup">
-        <h1>Download the eShowing app!</h1>
-        <h4>Don't let the inconvenience of looking at houses consume you. Take control of your home-buying journey with a house-hunting app that works on YOUR schedule—not an agent’s.</h4>
+        <br /><h1>Download the eShowing app!</h1><br />
+        <div class="title"><h4>Don't let the inconvenience of looking at houses consume you. Take control of your home-buying journey with a house-hunting app that works on YOUR schedule — not an agent’s.</h4><br /></div>
         {/* Phone sign up  */}
         <div className="signup-container">
           <label for="phone"></label>
           <input type="tel" id="phone" name="phone" placeholder="Mobile number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required />
-          <input type="submit" value="text me the app" /><br /></div>
-        <h7>Disclaimer: U.S. mobile numbers only. Message and data rates apply. I agree to receive a one-time text message containing a link to download the eShowing app at the mobile number I provide above, and I confirm that the mobile number is mine.</h7>
-        <br /><br />
-      </div>
+          <input type="submit" value="text me the app" /><br /><br /><br /></div>
+        <div class='disclaimer'>
+          <h7>Disclaimer: U.S. mobile numbers only. Message and data rates apply. I agree to receive a one-time text message containing a link to download the eShowing app at the mobile number I provide above, and I confirm that the mobile number is mine.</h7></div>
+        <br /><br /><br /><br />
+      </div><br />
       {/* visuals  */}
       <div className="visuals">
-        <h4>MAP</h4>
-        <h4>phone screen with app and play button</h4>
-        <br /><br />
       </div>
       {/* how it works section */}
       <div className="howitworks">
         <h1>How It Works:</h1><br />
-        <h4>With just a few taps, you can easily search for all available homes in your desired area and schedule a private home tour at your convenience.</h4><br />
+        <div class="howitworkstext">
+          <h4>With just a few taps, you can easily search for all available homes in your desired area and schedule a private home tour at your convenience!</h4><br /><br /></div>
         <p class='text'>Step 1: Search For Homes</p>
         <div className='step'>
           <div className='step-text'>
             <p>Simply enter your desired location and browse for available homes in the area. Filter your search based on the number of bedrooms, bathrooms, and other amenities.
-              Visual: App screenshot: Search results page, dots
             </p></div>
           <div class="image-container">
             <img src="https://i.imgur.com/rW2PhJk.jpg" alt="screenshot"></img>
@@ -68,25 +66,22 @@ function App() {
         <div className='step'>
           <p class='text'>Step 2: Get More Details</p>
           <div class='step-text2'>
-            <p>See something you like? Click to get details and pictures. Want to schedule a tour? Select "Schedule Tour" at the top of the screen. Put in the time and place of your preference, and we will confirm it with the seller. You will get a confirmation that your showing has been scheduled and all you have to do is show up!
-              Visual: App screenshot: House detail page</p></div>
-          <div class="image-container"><img src="https://i.imgur.com/z24DUMf.jpg" class="center" /></div>
+            <p>See something you like? Click to get details and pictures. Want to schedule a tour? Select "Schedule Tour" at the top of the screen. Put in the time and place of your preference, and we will confirm it with the seller. You will get a confirmation that your showing has been scheduled and all you have to do is show up!</p></div>
+          <div class="image-container"><img src="https://i.imgur.com/z24DUMf.jpg" /></div>
         </div>
         <div className='step'>
           <p class='text'>Step 3: Schedule a Showing</p>
           <div class='step-text'><p>With our app, you choose the property, and an agent will meet you at the door to give you a private showing. If you like the agent, you can continue working with together. If not, you have the option to choose a different agent. Or no agent.
-            Visual: App screenshot: Appointment page
           </p></div>
           <div class="image-container"><img src="https://i.imgur.com/VLLYqG0.jpg" /></div>
         </div>
         <div className='step'>
           <p class='text'>Step 4: View the Property</p>
           <div class='step-text2'><p>An agent will meet you at the door to give you a private showing. If you like the agent, you can continue working with together. If not, you have the option to choose a different agent. Or no agent.
-            Visual: App screenshot: Confirmation page
           </p></div>
           <div class="image-container"><img src="https://i.imgur.com/SGNJivO.jpg" /></div>
         </div>
-        <br />
+        <br /><br /><br />
       </div>
       {/* module 3  */}
       <div className="module3head">
@@ -110,14 +105,16 @@ function App() {
         </div>
       </div><br /><br /><br />
       {/* Phone number 2 section */}
-      <div className="phone2">
-        <h1>Browse, Schedule and Tour Homes at Your Convenience. Download the eShowing app.</h1>
-        <p>Our team of top agents designed this app to make the home-buying process simple, efficient and stress-free for you. Download our app and start your home buying journey today!</p>
+      <div className="phone2"><br />
+        <h1>Browse, Schedule and Tour Homes at Your Convenience. Download the eShowing app.</h1><br />
+        <div class="title">
+          <p>Our team of top agents designed this app to make the home-buying process simple, efficient and stress-free for you. Download our app and start your home buying journey today!</p></div><br />
         <div className="signup-container">
           <label for="phone2"></label>
           <input type="tel" id="phone" name="phone" placeholder="Mobile number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required />
-          <input type="submit" value="text me the app" /><br /></div>
-        <p> Disclaimer: U.S. mobile numbers only. Message and data rates apply. I agree to receive a one-time text message containing a link to download the eShowing app at the mobile number I provide above, and I confirm that the mobile number is mine.</p><br />
+          <input type="submit" value="text me the app" /><br /><br /></div>
+        <br /><div class='disclaimer'>
+          <p> Disclaimer: U.S. mobile numbers only. Message and data rates apply. I agree to receive a one-time text message containing a link to download the eShowing app at the mobile number I provide above, and I confirm that the mobile number is mine.</p><br /></div>
       </div>
     </>
   );
