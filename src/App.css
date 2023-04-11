@@ -110,14 +110,16 @@ img {
   /* make image take up half of the container */
 }
 
-
-
-
-
 /* section */
 .module3head {
   text-align: center;
   display: flex;
+}
+
+@media (max-width: 767px) {
+  .module3head {
+    flex-direction: column;
+  }
 }
 
 .icon-container {
@@ -134,11 +136,6 @@ img {
   left: 0;
   margin-right: 10px;
 } */
-
-svg {
-  font-size: 24px;
-  margin-bottom: 10px;
-}
 
 /* last section */
 .phone2 {
@@ -157,6 +154,12 @@ svg {
   height: 30vh;
   width: 30vw;
   color: #d30000;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.icons {
+  padding: 15px;
 }
 
 img {
