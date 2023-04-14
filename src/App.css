@@ -55,6 +55,14 @@
   padding-right: 20rem;
 }
 
+/* media query for disclaimer padding */
+@media (max-width: 767px) {
+  .disclaimer {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
 .signup-container {
   display: flex;
   justify-content: center;
@@ -71,9 +79,17 @@
   text-align: center;
 }
 
+/* media query for how it works text on mobile */
+@media (max-width: 767px) {
+  .howitworkstext {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
 .howitworkstext {
-  margin-left: 10rem;
-  margin-right: 10rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
 }
 
 img {
