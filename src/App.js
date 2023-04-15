@@ -33,9 +33,11 @@ function App() {
       </div>
       <div className="signup">
         <br /><h1>Download the eShowing app!</h1><br />
+
+        <button><a href="#">Download</a></button><br /><br />
         <div class="title"><h4>Don't let the inconvenience of looking at houses consume you. Take control of your home-buying journey with a house-hunting app that works on YOUR schedule.</h4><br /></div>
         {/* Phone sign up  */}
-
+        <hr />
       </div><br />
       {/* visuals  */}
       <div className="visuals">
@@ -60,7 +62,8 @@ function App() {
         <div className='step-left'>
           <div class='step-text2'>
             <p class='text'>Step 2: Get More Details</p>
-            <p>See something you like? Click to get details and pictures. Want to schedule a tour? Select "Schedule Tour" at the top of the screen. Put in the time and place of your preference, and we will confirm it with the seller. You will get a confirmation that your showing has been scheduled and all you have to do is show up!</p></div>
+            <p>See something you like? Click to get details and pictures. Want to schedule a tour? Select "Schedule Tour" at the top of the screen. Put in the time and place of your preference, and we will confirm it with the seller. You will get a confirmation that your showing has been scheduled and all you have to do is show up!</p>
+          </div>
           {/* <div class="image-container"> */}
           <img src="https://i.imgur.com/BKqQba2.jpg" id="item" />
           <img src="https://i.imgur.com/MHBduyW.png" id="items" />
@@ -113,13 +116,14 @@ function App() {
             <path fill-rule="evenodd" d="M8 9.984C10.403 9.506 12 7.48 12 5a4 4 0 0 0-8 0c0 2.48 1.597 4.506 4 4.984ZM13 5c0 2.837-1.789 5.227-4.52 5.901l.244.487a.25.25 0 1 1-.448.224l-.008-.017c.008.11.02.202.037.29.054.27.161.488.419 1.003.288.578.235 1.15.076 1.629-.157.469-.422.867-.588 1.115l-.004.007a.25.25 0 1 1-.416-.278c.168-.252.4-.6.533-1.003.133-.396.163-.824-.049-1.246l-.013-.028c-.24-.48-.38-.758-.448-1.102a3.177 3.177 0 0 1-.052-.45l-.04.08a.25.25 0 1 1-.447-.224l.244-.487C4.789 10.227 3 7.837 3 5a5 5 0 0 1 10 0Zm-6.938-.495a2.003 2.003 0 0 1 1.443-1.443C7.773 2.994 8 2.776 8 2.5c0-.276-.226-.504-.498-.459a3.003 3.003 0 0 0-2.46 2.461c-.046.272.182.498.458.498s.494-.227.562-.495Z" />
           </svg>
           <p class="icons">No Strings: </p><p class="icons"> You don’t need to have a dedicated agent to see a property—and you are never committed to the agent who shows you the property.</p>
-        </div>
+        </div><hr />
       </div><br /><br /><br />
       {/* Phone number 2 section */}
       <div className="phone2"><br />
         <h1>Browse, Schedule and Tour Homes at Your Convenience. Download the eShowing app!</h1><br />
         <div class="title">
           <p>Our team of top agents designed this app to make the home-buying process simple, efficient and stress-free for you. Download our app and start your home buying journey today!</p></div><br />
+        <button><a href="#">Download</a></button><br /><br />
       </div>
     </>
   );

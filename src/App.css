@@ -40,8 +40,8 @@
 
 /* download 1 section */
 .signup {
-  background-color: #d30000;
-  color: white;
+  /* background-color: #d30000; */
+  color: #d30000;
   text-align: center;
 }
 
@@ -50,29 +50,29 @@
   margin-right: 7rem;
 }
 
-.disclaimer {
+/* .disclaimer {
   padding-left: 20rem;
   padding-right: 20rem;
-}
+} */
 
-/* media query for disclaimer padding */
+/* media query for disclaimer padding
 @media (max-width: 767px) {
   .disclaimer {
     padding-left: 1rem;
     padding-right: 1rem;
   }
-}
+} */
 
-.signup-container {
+/* .signup-container {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
 /* section */
-.visuals {
+/* .visuals {
   text-align: center;
-}
+} */
 
 /* how it works section */
 .howitworks {
@@ -93,10 +93,10 @@
 }
 
 img {
-  max-width: 50%;
-  height: auto;
+  max-width: 100%;
+  /* max-width: 50%;
+  height: auto; */
 }
-
 
 body {
   overflow-x: hidden;
@@ -147,13 +147,22 @@ body {
   margin-top: 2rem;
 }
 
+.step-left {
+  position: relative;
+  /* height: 400px;
+  width: 700px; */
+}
+
 /* images on left side */
 #item {
   z-index: 2;
   position: relative;
+  /* position: relative; */
   height: 400px;
   width: 200px;
   margin-left: .3em;
+  /* top: 0;
+  left: 0; */
 }
 
 /*image behind left*/
@@ -162,6 +171,9 @@ body {
   position: absolute;
   height: 300px;
   width: 500px;
+  top: 0;
+  left: 0;
+  margin-top: 2rem;
 }
 
 .step,
@@ -176,28 +188,27 @@ body {
 
 .step-text {
   float: left;
-  width: 50%;
+  width: 30%;
   margin-left: 3rem;
   margin-top: 4rem;
 }
 
 .step-text2 {
   float: right;
-  width: 50%;
+  width: 30%;
   margin-right: 3rem;
   margin-top: 4rem;
 }
 
 .step img {
   float: right;
-  width: 50%;
-  margin-right: 3rem;
+  width: 70%;
+  /* margin-right: 3rem; */
 }
 
 .step-left img {
   float: left;
-  width: 50%;
-  margin-left: 3rem;
+  width: 70%;
 }
 
 
@@ -215,7 +226,6 @@ body {
     width: 100%;
   }
 }
-
 
 /* section */
 .module3head {
@@ -247,8 +257,8 @@ body {
 
 /* last section */
 .phone2 {
-  background-color: #d30000;
-  color: white;
+  /* background-color: #d30000; */
+  color: #d30000;
   text-align: center;
 }
 
@@ -284,4 +294,12 @@ img {
 /* .center {
   display: block;
   margin: auto;
+} */
+
+
+/* download button */
+
+/*
+hr {
+  background-color: #d30000;
 } */
