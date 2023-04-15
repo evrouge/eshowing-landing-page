@@ -84,8 +84,8 @@ function App() {
         <div className='step-left'>
           <div class='step-text2'>
             <p class='text'>Step 4: View the Property</p>
-            <p>An agent will meet you at the door to give you a private showing. If you like the agent, you can continue working with together. If not, you have the option to choose a different agent. Or no agent.
-            </p></div>
+            <p>An agent will meet you at the door to give you a private showing. If you like the agent, you can continue working together. If not, you have the option to choose a different agent. Or no agent.
+            </p><br /><p></p></div>
           {/* <div class="image-container"> */}
           <img src="https://i.imgur.com/ywRfnse.jpg" id="item" />
           <img src="https://i.imgur.com/tCx5EIS.png" id="items" />
