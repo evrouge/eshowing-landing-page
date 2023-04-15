@@ -1,9 +1,6 @@
 import React from 'react';
 import './App.css';
-import './components/Bottom';
-import './components/Head';
-import './components/Module2';
-import './components/Module3';
+
 //======BOOTSTRAP IMPORTS===============
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Container from 'react-bootstrap/Container';
@@ -36,15 +33,9 @@ function App() {
       </div>
       <div className="signup">
         <br /><h1>Download the eShowing app!</h1><br />
-        <div class="title"><h4>Don't let the inconvenience of looking at houses consume you. Take control of your home-buying journey with a house-hunting app that works on YOUR schedule — not an agent’s.</h4><br /></div>
+        <div class="title"><h4>Don't let the inconvenience of looking at houses consume you. Take control of your home-buying journey with a house-hunting app that works on YOUR schedule.</h4><br /></div>
         {/* Phone sign up  */}
-        <div className="signup-container">
-          <label for="phone"></label>
-          <input type="tel" id="phone" name="phone" placeholder="Mobile number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required />
-          <input type="submit" value="text me the app" /><br /><br /><br /></div>
-        <div class='disclaimer'>
-          <h7>Disclaimer: U.S. mobile numbers only. Message and data rates apply. I agree to receive a one-time text message containing a link to download the eShowing app at the mobile number I provide above, and I confirm that the mobile number is mine.</h7></div>
-        <br /><br /><br /><br />
+
       </div><br />
       {/* visuals  */}
       <div className="visuals">
@@ -54,36 +45,53 @@ function App() {
         <h1>How It Works:</h1><br />
         <div class="howitworkstext">
           <h4>With just a few taps, you can easily search for all available homes in your desired area and schedule a private home tour at your convenience!</h4><br /><br /></div>
-        <p class='text'>Step 1: Search For Homes</p>
+
         <div className='step'>
           <div className='step-text'>
+            <p class='text'>Step 1: Search For Homes</p>
             <p>Simply enter your desired location and browse for available homes in the area. Filter your search based on the number of bedrooms, bathrooms, and other amenities.
             </p></div>
-          <div class="image-container">
-            <img src="https://i.imgur.com/rW2PhJk.jpg" alt="screenshot"></img>
-          </div>
+          {/* <div class="image-container"> */}
+          <img src="https://i.imgur.com/rhW6EXa.jpg" alt="screenshot" id="item-1"></img>
+          <img src="https://i.imgur.com/W4Xqlgi.png" id="item-2" />
+          {/* </div> */}
         </div><br />
-        <div className='step'>
-          <p class='text'>Step 2: Get More Details</p>
+
+        <div className='step-left'>
           <div class='step-text2'>
+            <p class='text'>Step 2: Get More Details</p>
             <p>See something you like? Click to get details and pictures. Want to schedule a tour? Select "Schedule Tour" at the top of the screen. Put in the time and place of your preference, and we will confirm it with the seller. You will get a confirmation that your showing has been scheduled and all you have to do is show up!</p></div>
-          <div class="image-container"><img src="https://i.imgur.com/z24DUMf.jpg" /></div>
+          {/* <div class="image-container"> */}
+          <img src="https://i.imgur.com/BKqQba2.jpg" id="item" />
+          <img src="https://i.imgur.com/MHBduyW.png" id="items" />
         </div>
+        {/* </div> */}
+
         <div className='step'>
-          <p class='text'>Step 3: Schedule a Showing</p>
-          <div class='step-text'><p>With our app, you choose the property, and an agent will meet you at the door to give you a private showing. If you like the agent, you can continue working with together. If not, you have the option to choose a different agent. Or no agent.
-          </p></div>
-          <div class="image-container"><img src="https://i.imgur.com/VLLYqG0.jpg" /></div>
+          <div class='step-text'>
+            <p class='text'>Step 3: Schedule a Showing</p>
+            <p>With our app, you choose the property, and an agent will meet you at the door to give you a private showing. If you like the agent, you can continue working with together. If not, you have the option to choose a different agent. Or no agent.
+            </p></div>
+          {/* <div class="image-container"> */}
+          <img src="https://i.imgur.com/6JheCj4.jpg" id="item-1" />
+          <img src="https://i.imgur.com/5MGrw9T.png" id="item-2" />
+          {/* </div> */}
         </div>
-        <div className='step'>
-          <p class='text'>Step 4: View the Property</p>
-          <div class='step-text2'><p>An agent will meet you at the door to give you a private showing. If you like the agent, you can continue working with together. If not, you have the option to choose a different agent. Or no agent.
-          </p></div>
-          <div class="image-container"><img src="https://i.imgur.com/SGNJivO.jpg" /></div>
+
+        <div className='step-left'>
+          <div class='step-text2'>
+            <p class='text'>Step 4: View the Property</p>
+            <p>An agent will meet you at the door to give you a private showing. If you like the agent, you can continue working with together. If not, you have the option to choose a different agent. Or no agent.
+            </p></div>
+          {/* <div class="image-container"> */}
+          <img src="https://i.imgur.com/ywRfnse.jpg" id="item" />
+          <img src="https://i.imgur.com/tCx5EIS.png" id="items" />
+          {/* </div> */}
         </div>
         <br /><br /><br />
       </div>
-      {/* module 3  */}
+
+      {/* ICONS  */}
       <div className="module3head">
         <div className="icon-container">
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-heart" viewBox="0 0 16 16">
@@ -93,8 +101,10 @@ function App() {
           <p class="icons"> Buyer First Convenience:</p><p class="icons"> No need to call an agent. Schedule appointments when you are free and you are matched to an agent who is free at that time.</p>
         </div>
         <div className='icon-container'>
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-dollar" viewBox="0 0 16 16">
-            <path d="M4 10.781c.148 1.667 1.513 2.85 3.591 3.003V15h1.043v-1.216c2.27-.179 3.678-1.438 3.678-3.3 0-1.59-.947-2.51-2.956-3.028l-.722-.187V3.467c1.122.11 1.879.714 2.07 1.616h1.47c-.166-1.6-1.54-2.748-3.54-2.875V1H7.591v1.233c-1.939.23-3.27 1.472-3.27 3.156 0 1.454.966 2.483 2.661 2.917l.61.162v4.031c-1.149-.17-1.94-.8-2.131-1.718H4zm3.391-3.836c-1.043-.263-1.6-.825-1.6-1.616 0-.944.704-1.641 1.8-1.828v3.495l-.2-.05zm1.591 1.872c1.287.323 1.852.859 1.852 1.769 0 1.097-.826 1.828-2.2 1.939V8.73l.348.086z" />
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-slash-fill" viewBox="0 0 16 16">
+            <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5Z" />
+            <path d="m8 3.293 4.712 4.712A4.5 4.5 0 0 0 8.758 15H3.5A1.5 1.5 0 0 1 2 13.5V9.293l6-6Z" />
+            <path d="M13.879 10.414a2.5 2.5 0 0 0-3.465 3.465l3.465-3.465Zm.707.707-3.465 3.465a2.501 2.501 0 0 0 3.465-3.465Zm-4.56-1.096a3.5 3.5 0 1 1 4.949 4.95 3.5 3.5 0 0 1-4.95-4.95Z" />
           </svg>
           <p class="icons">No Cost: </p><p class="icons">This app is free for people looking for homes. Find homes near you on your terms and without multiple calls or sales pitches.</p>
         </div>
@@ -107,15 +117,9 @@ function App() {
       </div><br /><br /><br />
       {/* Phone number 2 section */}
       <div className="phone2"><br />
-        <h1>Browse, Schedule and Tour Homes at Your Convenience. Download the eShowing app.</h1><br />
+        <h1>Browse, Schedule and Tour Homes at Your Convenience. Download the eShowing app!</h1><br />
         <div class="title">
           <p>Our team of top agents designed this app to make the home-buying process simple, efficient and stress-free for you. Download our app and start your home buying journey today!</p></div><br />
-        <div className="signup-container">
-          <label for="phone2"></label>
-          <input type="tel" id="phone" name="phone" placeholder="Mobile number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required />
-          <input type="submit" value="text me the app" /><br /><br /></div>
-        <br /><div class='disclaimer'>
-          <p> Disclaimer: U.S. mobile numbers only. Message and data rates apply. I agree to receive a one-time text message containing a link to download the eShowing app at the mobile number I provide above, and I confirm that the mobile number is mine.</p><br /></div>
       </div>
     </>
   );
