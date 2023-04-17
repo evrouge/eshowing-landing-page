@@ -14,7 +14,7 @@ function App() {
     <>
       <div>
         {/* Bootstrap Navbar */}
-        <Navbar collapseOnSelect expand="lg" bg="light" variant="inverse">
+        {/* <Navbar collapseOnSelect expand="lg" bg="light" variant="inverse">
           <Container>
             <Navbar.Brand href="#home">eShowing</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -29,16 +29,17 @@ function App() {
               </Nav>
             </Navbar.Collapse>
           </Container>
-        </Navbar>
+        </Navbar> */}
       </div>
       <div className="signup">
         <br /><h1>Download the eShowing app!</h1><br />
 
         <button><a href="#">Download</a></button><br /><br />
-        <div class="title"><h4>Don't let the inconvenience of looking at houses consume you. Take control of your home-buying journey with a house-hunting app that works on YOUR schedule.</h4><br /></div>
+        {/* <div class="title"><h4>Don't let the inconvenience of looking at houses consume you. Take control of your home-buying journey with a house-hunting app that works on YOUR schedule.</h4><br /></div> */}
         {/* Phone sign up  */}
         <hr />
       </div><br />
+      <div class="title"><h4>Don't let the inconvenience of looking at houses consume you. Take control of your home-buying journey with a house-hunting app that works on YOUR schedule.</h4><br /></div>
       {/* visuals  */}
       <div className="visuals">
       </div>
@@ -47,7 +48,6 @@ function App() {
         <h1>How It Works:</h1><br />
         <div class="howitworkstext">
           <h4>With just a few taps, you can easily search for all available homes in your desired area and schedule a private home tour at your convenience!</h4><br /><br /></div>
-
         <div className='step'>
           <div className='step-text'>
             <p class='text'>Step 1: Search For Homes</p>

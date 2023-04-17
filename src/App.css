@@ -55,13 +55,15 @@
   padding-right: 20rem;
 } */
 
-/* media query for disclaimer padding
+/* media query for disclaimer padding */
 @media (max-width: 767px) {
-  .disclaimer {
-    padding-left: 1rem;
-    padding-right: 1rem;
+
+  .title {
+    margin-left: .3em;
+    margin-right: .3em;
   }
-} */
+
+}
 
 /* .signup-container {
   display: flex;
@@ -82,10 +84,30 @@
 /* media query for how it works text on mobile */
 @media (max-width: 767px) {
   .howitworkstext {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: .01em;
+    padding-right: .01em;
+  }
+
+}
+
+/* @media (max-width: 200px) {
+
+  #items,
+  #item-2 {
+    display: none;
+  }
+} */
+
+/* Targets tablets with a minimum width of 768px and a maximum width of 1023px */
+@media only screen and (min-width: 400px) and (max-width: 1020px) {
+
+  /* Your CSS rules for tablets here */
+  #items,
+  #item-2 {
+    display: none;
   }
 }
+
 
 .howitworkstext {
   margin-left: 5rem;
@@ -179,13 +201,6 @@ body {
   margin-top: 2rem;
   margin-left: 7em;
 }
-
-/* media query for left side photos */
-@media (max-width: 767px) {
-  #items img {}
-}
-
-
 
 .step,
 .step-left {
