@@ -1,46 +1,5 @@
-/* .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-} */
-
 /* download 1 section */
 .signup {
-  /* background-color: #d30000; */
   color: #d30000;
   text-align: center;
 }
@@ -49,11 +8,6 @@
   margin-left: 7rem;
   margin-right: 7rem;
 }
-
-/* .disclaimer {
-  padding-left: 20rem;
-  padding-right: 20rem;
-} */
 
 /* media query for disclaimer padding */
 @media (max-width: 767px) {
@@ -89,14 +43,6 @@
   }
 
 }
-
-/* @media (max-width: 200px) {
-
-  #items,
-  #item-2 {
-    display: none;
-  }
-} */
 
 /* Targets tablets with a minimum width of 768px and a maximum width of 1023px */
 @media only screen and (min-width: 400px) and (max-width: 1020px) {
@@ -237,8 +183,8 @@ body {
   width: 70%;
 }
 
-
-@media (max-width: 767px) {
+/* media query for phone size and tablet (phone photo underneath text for steps) */
+@media only screen and (min-width: 400px) and (max-width: 1020px) {
 
   .step-text,
   .step-text2 {
@@ -271,6 +217,7 @@ body {
   #items {
     margin-top: 22em;
   }
+
 
 }
 
