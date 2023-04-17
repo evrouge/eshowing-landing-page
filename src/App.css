@@ -73,12 +73,6 @@
   }
 }
 
-
-/* .howitworkstext {
-  margin-left: 5rem;
-  margin-right: 5rem;
-} */
-
 img {
   max-width: 100%;
   /* max-width: 50%;
@@ -215,11 +209,19 @@ body {
     margin-top: 22em;
   }
 
+  /*
   .texting {
-    margin: 2em;
-  }
+   margin: 2em;
+  } */
 
 }
+
+/*
+@media (max-width: 350px) {
+  img {
+    align-items: center;
+  }
+} */
 
 /* section */
 .module3head {
