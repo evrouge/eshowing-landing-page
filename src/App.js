@@ -34,11 +34,14 @@ function App() {
       <div className="signup">
         <br /><h1>Download the eShowing app!</h1><br />
 
-        <button><a href="#">Download</a></button><br /><br />
+
         {/* <div class="title"><h4>Don't let the inconvenience of looking at houses consume you. Take control of your home-buying journey with a house-hunting app that works on YOUR schedule.</h4><br /></div> */}
         {/* Phone sign up  */}
-        <hr />
-      </div><br />
+
+      </div>
+      <div class="bttn">
+        <button><a href="#">Download</a></button></div><br />
+      <hr />
       <div class="title"><h4>Don't let the inconvenience of looking at houses consume you. Take control of your home-buying journey with a house-hunting app that works on YOUR schedule.</h4><br /></div>
       {/* visuals  */}
       <div className="visuals">
@@ -51,7 +54,7 @@ function App() {
         <div className='step'>
           <div className='step-text'>
             <p class='text'>Step 1: Search For Homes</p>
-            <p>Simply enter your desired location and browse for available homes in the area. Filter your search based on the number of bedrooms, bathrooms, and other amenities.
+            <p class="texting">Simply enter your desired location and browse for available homes in the area. Filter your search based on the number of bedrooms, bathrooms, and other amenities.
             </p></div>
           {/* <div class="image-container"> */}
           <img src="https://i.imgur.com/rhW6EXa.jpg" alt="screenshot" id="item-1"></img>
@@ -62,7 +65,7 @@ function App() {
         <div className='step-left'>
           <div class='step-text2'>
             <p class='text'>Step 2: Get More Details</p>
-            <p>See something you like? Click to get details and pictures. Want to schedule a tour? Select "Schedule Tour" at the top of the screen. Put in the time and place of your preference, and we will confirm it with the seller. You will get a confirmation that your showing has been scheduled and all you have to do is show up!</p>
+            <p class="texting">See something you like? Click to get details and pictures. Want to schedule a tour? Select "Schedule Tour" at the top of the screen. Put in the time and place of your preference, and we will confirm it with the seller. You will get a confirmation that your showing has been scheduled and all you have to do is show up!</p>
           </div>
           {/* <div class="image-container"> */}
           <img src="https://i.imgur.com/BKqQba2.jpg" id="item" />
@@ -73,7 +76,7 @@ function App() {
         <div className='step'>
           <div class='step-text'>
             <p class='text'>Step 3: Schedule a Showing</p>
-            <p>With our app, you choose the property, and an agent will meet you at the door to give you a private showing. If you like the agent, you can continue working with together. If not, you have the option to choose a different agent. Or no agent.
+            <p class="texting">With our app, you choose the property, and an agent will meet you at the door to give you a private showing. If you like the agent, you can continue working with together. If not, you have the option to choose a different agent. Or no agent.
             </p></div>
           {/* <div class="image-container"> */}
           <img src="https://i.imgur.com/6JheCj4.jpg" id="item-1" />
@@ -84,7 +87,7 @@ function App() {
         <div className='step-left'>
           <div class='step-text2'>
             <p class='text'>Step 4: View the Property</p>
-            <p>An agent will meet you at the door to give you a private showing. If you like the agent, you can continue working together. If not, you have the option to choose a different agent. Or no agent.
+            <p class="texting">An agent will meet you at the door to give you a private showing. If you like the agent, you can continue working together. If not, you have the option to choose a different agent. Or no agent.
             </p><br /><p></p></div>
           {/* <div class="image-container"> */}
           <img src="https://i.imgur.com/ywRfnse.jpg" id="item" />
@@ -123,8 +126,11 @@ function App() {
         <h1>Browse, Schedule and Tour Homes at Your Convenience. Download the eShowing app!</h1><br />
         <div class="title">
           <p>Our team of top agents designed this app to make the home-buying process simple, efficient and stress-free for you. Download our app and start your home buying journey today!</p></div><br />
-        <button><a href="#">Download</a></button><br /><br />
+
       </div>
+      <div class="bttn">
+        <button class="bttn"><a href="#">Download</a></button>
+      </div><br /><br />
     </>
   );
 }

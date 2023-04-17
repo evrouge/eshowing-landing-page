@@ -209,24 +209,20 @@ body {
 
   .step-left img {
     float: none;
-    /* width: 100%; */
     margin-top: 2.5rem;
-    /* object-fit: cover; */
+
   }
 
   #items {
     margin-top: 22em;
   }
 
+  .texting {
+    margin: 2em;
+  }
+
 
 }
-
-/* @media screen and (min-width: 768px) {
-  #items {
-    margin-top: 25em;
-  }
-} */
-
 
 /* section */
 .module3head {
@@ -299,8 +295,22 @@ img {
 
 
 /* download button */
+a {
+  color: white;
+  text-decoration: none;
+}
 
-/*
-hr {
+button {
   background-color: #d30000;
-} */
+  border-radius: 50px;
+  padding: 5px;
+}
+
+.bttn button {
+  display: inline-block;
+}
+
+.bttn {
+  display: flex;
+  justify-content: center;
+}
