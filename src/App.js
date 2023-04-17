@@ -32,17 +32,16 @@ function App() {
         </Navbar> */}
       </div>
       <div className="signup">
-        <br /><h1>Download the eShowing app!</h1><br />
-
-
-        {/* <div class="title"><h4>Don't let the inconvenience of looking at houses consume you. Take control of your home-buying journey with a house-hunting app that works on YOUR schedule.</h4><br /></div> */}
-        {/* Phone sign up  */}
-
+        <br /><h1>Download The eShowing App!</h1><br />
       </div>
+      <div class="img-container">
+        <img src="https://i.imgur.com/B9BPy7c.jpg" />
+      </div><br /><br />
       <div class="bttn">
         <button><a href="#">Download</a></button></div><br />
       <hr />
       <div class="title"><h4>Don't let the inconvenience of looking at houses consume you. Take control of your home-buying journey with a house-hunting app that works on YOUR schedule.</h4><br /></div>
+      <hr />
       {/* visuals  */}
       <div className="visuals">
       </div>
@@ -50,7 +49,7 @@ function App() {
       <div className="howitworks">
         <h1>How It Works:</h1><br />
         <div class="howitworkstext">
-          <h4>With just a few taps, you can easily search for all available homes in your desired area and schedule a private home tour at your convenience!</h4><br /><br /></div>
+          <h4>With just a few taps, you can easily search for all available homes in your desired area and schedule a private home tour at your convenience!</h4><br /></div>
         <div className='step'>
           <div className='step-text'>
             <p class='text'>Step 1: Search For Homes</p>
