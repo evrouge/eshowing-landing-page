@@ -72,17 +72,19 @@
     display: none;
   }
 
-  #item,
+  /* #item,
   #item-1 {
     display: block;
     margin: 0 auto;
     max-width: 100%;
     height: auto;
     position: absolute;
-    /* top: 50%;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); */
-  }
+    transform: translate(-50%, -50%);
+}
+
+*/
 }
 
 img {
@@ -177,7 +179,6 @@ body {
 .step img {
   float: right;
   width: 70%;
-  /* margin-right: 3rem; */
 }
 
 .step-left img {
@@ -188,7 +189,7 @@ body {
 
 
 /* media query for phone size and tablet (phone photo underneath text for steps) */
-@media only screen and (min-width: 400px) and (max-width: 1150px) {
+@media only screen and (min-width: 300px) and (max-width: 1150px) {
 
   .step-text,
   .step-text2 {
@@ -294,9 +295,9 @@ svg {
   height: 55vh;
 } */
 
-.imgcontainer {
+/* .imgcontainer {
   text-align: center;
-}
+} */
 
 /* .center {
   display: block;
