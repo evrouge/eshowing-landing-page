@@ -71,6 +71,18 @@
   #item-2 {
     display: none;
   }
+
+  #item,
+  #item-1 {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 }
 
 img {
@@ -209,10 +221,9 @@ body {
     margin-top: 22em;
   }
 
-  /*
   .texting {
-   margin: 2em;
-  } */
+    margin: 2em;
+  }
 
 }
 
