@@ -50,6 +50,8 @@
 
 .howitworkstext {
   color: #d30000;
+  margin-left: 5rem;
+  margin-right: 5rem;
 }
 
 /* media query for how it works text on mobile */
@@ -62,7 +64,7 @@
 }
 
 /* Targets tablets with a minimum width of 768px and a maximum width of 1023px */
-@media only screen and (min-width: 400px) and (max-width: 1150px) {
+@media only screen and (min-width: 350px) and (max-width: 1150px) {
 
   /* Your CSS rules for tablets here */
   #items,
@@ -72,10 +74,10 @@
 }
 
 
-.howitworkstext {
+/* .howitworkstext {
   margin-left: 5rem;
   margin-right: 5rem;
-}
+} */
 
 img {
   max-width: 100%;
@@ -273,11 +275,11 @@ svg {
   margin: auto;
 }
 
-img {
+/* img {
   overflow: hidden;
   align-items: center;
   height: 55vh;
-}
+} */
 
 .imgcontainer {
   text-align: center;
