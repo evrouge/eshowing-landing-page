@@ -62,7 +62,7 @@
 }
 
 /* Targets tablets with a minimum width of 768px and a maximum width of 1023px */
-@media only screen and (min-width: 400px) and (max-width: 1020px) {
+@media only screen and (min-width: 400px) and (max-width: 1150px) {
 
   /* Your CSS rules for tablets here */
   #items,
@@ -95,7 +95,7 @@ body {
   position: relative;
   height: 400px;
   width: 200px;
-  margin-right: .8em;
+  margin-right: 1em;
 }
 
 /* image behind right */
@@ -109,7 +109,7 @@ body {
   height: 300px;
   width: 500px;
   margin-top: 2rem;
-  margin-right: 7em;
+  margin-right: 10em;
   right: 0;
 }
 
@@ -125,7 +125,7 @@ body {
   /* position: relative; */
   height: 400px;
   width: 200px;
-  margin-left: .8em;
+  margin-left: 1em;
   /* top: 0;
   left: 0; */
 }
@@ -139,7 +139,7 @@ body {
   top: 0;
   left: 0;
   margin-top: 2rem;
-  margin-left: 7em;
+  margin-left: 10em;
 }
 
 .step,
@@ -155,14 +155,14 @@ body {
 .step-text {
   float: left;
   width: 30%;
-  margin-left: 3rem;
+  margin-left: 9rem;
   margin-top: 3.5rem;
 }
 
 .step-text2 {
   float: right;
   width: 30%;
-  margin-right: 3rem;
+  margin-right: 9rem;
   margin-top: 3.5rem;
 }
 
@@ -177,8 +177,10 @@ body {
   width: 70%;
 }
 
+
+
 /* media query for phone size and tablet (phone photo underneath text for steps) */
-@media only screen and (min-width: 400px) and (max-width: 1020px) {
+@media only screen and (min-width: 400px) and (max-width: 1150px) {
 
   .step-text,
   .step-text2 {
@@ -192,8 +194,9 @@ body {
     margin: 2rem 0;
   }
 
-  /* .step-text2 {
-    margin: 2rem 0;
+  /*
+  .step-text2 {
+    margin-left: 2rem;
   } */
 
   .step img {
