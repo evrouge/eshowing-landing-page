@@ -39,7 +39,7 @@ function App() {
       <div class="img-container">
         <img src="https://i.imgur.com/B9BPy7c.jpg" />
       </div><br />
-      <div class="title"><h4>Don't let the inconvenience of looking at houses consume you. Take control of your home-buying journey with a house-hunting app that works on YOUR schedule.</h4><br /></div>
+      <div class="title"><h4>Don't let the inconvenience of looking at houses consume you. Take control of your home-buying journey with a house-hunting app that works on YOUR schedule.</h4></div>
       <hr />
       {/* visuals  */}
       <div className="visuals">
@@ -119,15 +119,21 @@ function App() {
           </svg>
           <p class="icons-text">No Strings: </p><p class="icons"> You don’t need to have a dedicated agent to see a property—and you are never committed to the agent who shows you the property.</p>
         </div><hr />
-      </div><br /><br /><br />
+      </div><br />
       {/* Phone number 2 section */}
-      <div className="phone2"><br />
+      <div className="phone2">
         <h1>Browse, Schedule and Tour Homes at Your Convenience. Download the eShowing app!</h1>
         <div class="bttn">
           <button class="bttn"><a href="#">Download</a></button>
         </div><br /><hr />
         <div class="title">
-          <p>Our team of top agents designed this app to make the home-buying process simple, efficient and stress-free for you. Download our app and start your home buying journey today!</p></div><br />
+          <p>Our team of top agents designed this app to make the home-buying process simple, efficient and stress-free for you. Download our app and start your home buying journey today!</p></div>
+      </div>
+      <div class="title">
+        <p>Contact Us: support@eshowing.com</p>
+      </div>
+      <div class="title">
+        <p>Disclaimer</p>
       </div>
       <br /><br />
     </>
